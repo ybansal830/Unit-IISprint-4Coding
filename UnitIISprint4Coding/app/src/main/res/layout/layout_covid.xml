@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    android:layout_margin="20dp"
+    android:id="@+id/rlLayout">
+    <TextView
+        android:id="@+id/tvOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date : "
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvOne"/>
+    <TextView
+        android:id="@+id/tvTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Positive : "
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvOne"/>
+    <TextView
+        android:id="@+id/tvPositive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvTwo"
+        android:layout_below="@+id/tvOne"/>
+    <TextView
+        android:id="@+id/tvThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Negative : "
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvTwo"/>
+    <TextView
+        android:id="@+id/tvNegative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvThree"
+        android:layout_below="@+id/tvTwo"/>
+    <TextView
+        android:id="@+id/tvFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospitalized Currently : "
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvThree"/>
+    <TextView
+        android:id="@+id/tvHospitalized"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvFour"
+        android:layout_below="@+id/tvThree"/>
+    <TextView
+        android:id="@+id/tvFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OnVentilator Currently : "
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvFour"/>
+    <TextView
+        android:id="@+id/tvVentilator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvFive"
+        android:layout_below="@+id/tvFour"/>
+    <TextView
+        android:id="@+id/tvSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Death : "
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvFive"/>
+    <TextView
+        android:id="@+id/tvDeath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvSix"
+        android:layout_below="@+id/tvFive"/>
+    <TextView
+        android:id="@+id/tvSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Checked : "
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvSix"/>
+    <TextView
+        android:id="@+id/dateChecked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvSeven"
+        android:layout_below="@+id/tvSix"/>
+
+
+</RelativeLayout>
